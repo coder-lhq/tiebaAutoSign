@@ -3,9 +3,9 @@ name: 'tiebaAutoSign'
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 16 * * *'
  
 jobs:
   sign:
